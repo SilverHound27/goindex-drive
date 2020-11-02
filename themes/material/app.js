@@ -294,12 +294,8 @@ function file_video(path){
 	<video id="player" class="mdui-video-fluid mdui-center" preload controls>
 	  <source src="${url}" type="video/mp4">
 	</video>
-	<br>${playBtn}
+	<br>
 	<!-Fixed label->
-	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">download link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}"/>
-	</div>
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">HTML reference</label>
 	  <textarea class="mdui-textfield-input"><video><source src="${url}" type="video/mp4"></video></textarea>
