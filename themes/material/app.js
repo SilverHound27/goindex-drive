@@ -295,10 +295,6 @@ function file_video(path){
 	</video>
 	<br>
 	<!-Fixed label->
-	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">HTML reference</label>
-	  <textarea class="mdui-textfield-input"><video><source src="${url}" type="video/mp4"></video></textarea>
-	</div>
 </div>
 
 	`;
